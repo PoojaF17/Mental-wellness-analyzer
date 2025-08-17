@@ -1,14 +1,12 @@
-# Mental-Health-Analyzer
+# Mental-Wellness-Analyzer
 
-This project focuses on analyzing various factors that could lead to mental health disorders. It uses machine learning techniques to predict which mental health disorder an individual is likely to have based on a set of behavioral and psychological features.
+This project leverages **Machine Learning** and **Data Science** to analyze behavioral and psychological patterns in order to predict potential **mental health conditions** such as **Anxiety, Depression, Stress, and Loneliness**. The model empowers early detection and awareness, which is crucial for mental well-being.
 
-## Overview
+# Key Highlights - **Data Preprocessing & Feature Engineering** on **40,960 behavioral records** to enhance model reliability. - **Logistic Regression ML Model** trained with **good Accuracy** in classifying multiple mental health disorders. - **End-to-End Deployment** using Python, Scikit-Learn, and an interactive web interface for real-world usability.
 
-Mental health issues are a growing concern, and early detection is critical for providing timely support. This project aims to predict the possibility of mental health disorders based on various symptoms and behaviors. We analyze a dataset with multiple features related to anxiety, depression, stress and loneliness, and apply Logistic Regression to classify individuals.
+# Dataset
 
-## Dataset
-
-The dataset includes several features that can predict mental and emotional states, behaviors, and physical symptoms:
+The dataset includes several features such as:
 
 - feeling.nervous: Frequency of feeling nervous
 - panic: Occurrence of panic attacks
@@ -30,3 +28,9 @@ The dataset includes several features that can predict mental and emotional stat
 - trouble.concentrating: Difficulty concentrating
 - blaming.yourself: Tendency to blame oneself
 - Disorder: Target variable, indicating which mental health disorder an individual have
+
+# Tech Stack  
+**Programming:** Python  
+**ML Frameworks:** Scikit-Learn, Pandas, NumPy 
+**Visualization:** Matplotlib, Seaborn 
+**Interface:** Jupyter Notebook, Web (Flask/Streamlit optional)
